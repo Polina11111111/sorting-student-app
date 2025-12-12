@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c1812c7-c53c-4944-bbbd-c84d48f62bcd" name="Changes" comment="" />
+    <list default="true" id="1c1812c7-c53c-4944-bbbd-c84d48f62bcd" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/sorting/collection/CustomArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/sorting/collection/CustomArrayList.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,7 +39,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "feature/student-class",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "C:/Users/korf1/IdeaProjects/untitled/src/main/java/org/example/Main.java",
     "project.structure.last.edited": "Modules",

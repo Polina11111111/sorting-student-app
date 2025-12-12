@@ -14,8 +14,14 @@ public class CustomArrayList<T> implements Iterable<T> {
     private int size;
 
 
-    public CustomArrayList() { this(10); }
-    public CustomArrayList(int capacity) { data = new Object[Math.max(10, capacity)]; size = 0; }
+    public CustomArrayList() {
+        this(10);
+    }
+
+    public CustomArrayList(int capacity) {
+        data = new Object[Math.max(10, capacity)];
+        size = 0;
+    }
 
 
     public void add(T item) {
@@ -37,15 +43,23 @@ public class CustomArrayList<T> implements Iterable<T> {
     }
 
 
-    public int size() { return size; }
+    public int size() {
+        return size;
+    }
 
 
     @Override
     public Iterator<T> iterator() {
         return new Iterator<>() {
             private int cur = 0;
-            public boolean hasNext() { return cur < size; }
-            public T next() { return get(cur++); }
+
+            public boolean hasNext() {
+                return cur < size;
+            }
+
+            public T next() {
+                return get(cur++);
+            }
         };
     }
 
